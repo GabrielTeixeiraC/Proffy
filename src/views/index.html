@@ -1,0 +1,67 @@
+<!--toda tag aberta deve ser fechada, dentro da tag coloca-se informações-->
+<!--As configurações da página deverão vir na tag head-->
+<!--HTML
+    HyperText
+        Hipertexto
+        <a>
+    Markup
+        Marcação
+    Language 
+        Linguagem
+    -->
+<!--Em laranja = tags; Em azul = atributos-->
+<!--heading 1 = Primeiro título forte; h2, h3, h4... vão diminuindo o tamanho-->
+
+
+<!DOCTYPE html>                     <!--primeira tag, faz os browsers entenderem que irão usar a versão 5-->
+<html lang="pt_br">                 <!-- lang é um atributo, dedfine a linguagem-->
+<head>                              <!--As configurações da página deverão vir na tag head-->
+    <meta charset="UTF-8">          <!--Meta = Atributos da Página; UTF-8 =Tipo de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!--Permite adaptar o documento para telas de tamanhos diferentes-->
+    <meta name="theme-color" content="#8257E5  ">
+    
+    <title>Proffy | Sua plataforma de estudos online</title>            <!--Tag Title = Nome da pagina na aba-->
+    
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+
+
+    <link rel="stylesheet" href="styles/main.css">       <!--/* chama o Cascading StyleSheet = Folha de Estilo em Cascada, além da tag style; relationship = tipo do assunto; hypertext reference = local-->
+    <link rel="stylesheet" href="styles/partials/page-landing.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+</head>         
+<body id="page-landing">          <!--Todo conteúdo visível na página, deverá vir na tag body-->
+
+
+    <div id="container">
+        <div class="logo-container">
+            <img src="/images/logo.svg" alt="Proffy">        <!-- image = permite colocar imagens; src = endereço-fonte da imagem; alt = alternativa em texto caso não consiga achar a imagem e acessibilidade-->
+            <h2>Sua plataforma de estudos online.</h2>                <!--paragraph = pula uma linha-->
+        </div>
+        
+        <img class="hero-image" src="/images/landing.svg" alt="Plataforma de Estudos">
+    
+        <div class="buttons-container">
+            <a class= "study" href="/study">
+                <img src="/images/icons/study.svg" alt="Estudar">
+                Estudar
+            </a>
+            <a class ="give-classes" href="/give-classes">
+                <img src="/images/icons/give-classes.svg" alt="Dar aulas">
+                Dar aulas
+            </a>
+        </div>
+
+        <p class= "total-connections">
+            Total de 200 conexões já realizadas.
+            <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
+        </p>
+    </div>
+     
+    
+   
+    
+</body>
+</html>
+
