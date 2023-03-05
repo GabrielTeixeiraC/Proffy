@@ -1,5 +1,5 @@
 # Proffy
-Projeto de aprendizado de Front-End da Next Level Week. 
-Basta clonar o repositório, rodar o comando e entrar na [url](http://localhost:5500/).
+Next Level Week Front-End Learning Project. 
+Just clone the repository, run the command and enter in the [url](http://localhost:5500/).
 
     npm run dev
